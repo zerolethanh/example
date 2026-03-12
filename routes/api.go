@@ -151,4 +151,7 @@ func Api() {
 			})
 		}).Name("url.post")
 	})
+
+	controllers.UserControllerSingleton.Routes(nil)
+	controllers.AuthControllerSingleton.Routes(nil)
 }
